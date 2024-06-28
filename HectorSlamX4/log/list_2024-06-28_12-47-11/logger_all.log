@@ -1,0 +1,74 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/media/tirthapc/DATA/LidarOP/HectorSlamX4']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/media/tirthapc/DATA/LidarOP/HectorSlamX4'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x772dbc953cd0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x772dbca9c040>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x772dbca9c040>>)
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.227s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/media/tirthapc/DATA/LidarOP/HectorSlamX4'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/build) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/devel) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/devel) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/devel) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/devel) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/log) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/log) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/log) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package '/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar' with type 'ros.catkin' and name 'ydlidar'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package '/media/tirthapc/DATA/LidarOP/HectorSlamX4/src/ydlidar_ros_driver' with type 'ros.catkin' and name 'ydlidar_ros_driver'
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
